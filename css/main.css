@@ -962,7 +962,6 @@ nav .nava .nava-content > ul > li > .top-dropDown .in-menu > .top-dropDown > .dr
   font-weight: 500;
   margin-bottom: 15px;
   text-transform: capitalize;
-  text-align: start;
 }
 
 nav .nava .nava-content > ul > li > .top-dropDown > a:last-child,
@@ -1072,6 +1071,7 @@ nav .nava .nava-content .nava-head {
     width: 100%;
     border: none;
     display: flex;
+    text-align: start;
   }
   nav .nava .nava-content > ul li > .top-dropDown .drop-link {
     padding: 10px 0;
