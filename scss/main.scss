@@ -237,7 +237,7 @@
 
         h5 {
             font-size: 14px;
-            font-weight: 500;
+            font-weight: 400;
             margin-bottom: 10px;
             line-height: 14px;
             color: rgba(66, 66, 66, 255);
@@ -262,7 +262,7 @@
         .price {
             justify-content: flex-start;
             .now {
-                font-size: 19px;
+                font-size: 16px;
                 font-weight: 700;
                 color: $color1;
             }
@@ -270,9 +270,9 @@
             .price-sale {
                 text-decoration: line-through;
                 color: #757575;
-                font-size: 19px;
                 margin: 0 5px;
-                font-weight: 500;
+                font-size: 16px;
+                font-weight: 400;
                 display: flex;
             }
 
@@ -343,7 +343,7 @@
                 margin: 0 5px;
             }
 
-            .like{
+            .like {
                 opacity: 1;
             }
         }
@@ -633,8 +633,10 @@ nav {
                     color: black;
                     background-color: #f5f5f5;
                     border-radius: 50px;
-                    padding: 11px 13px;
                     overflow: hidden;
+                    padding: 0;
+                    width: 40px;
+                    height: 40px;
 
                     &:before {
                         content: "";
@@ -874,7 +876,6 @@ nav {
                             display: flex;
                             text-align: start;
 
-
                             .drop-link {
                                 padding: 10px 0;
                                 border-bottom: 0;
@@ -901,8 +902,8 @@ nav {
                     }
                 }
 
-                .tel{
-                    margin:30px auto;
+                .tel {
+                    margin: 30px auto;
                 }
 
                 .nava-head {
@@ -1274,7 +1275,7 @@ header {
         .more {
             padding: 10px 32px;
             background: linear-gradient(90deg, rgb(223, 180, 72) 25%, rgb(191, 151, 46) 75%);
-            font-size: 16px;
+            font-size: 15px;
             color: white;
             display: inline-block;
             margin-top: 40px;
@@ -1294,14 +1295,13 @@ header {
                 z-index: 0;
             }
 
-            span{
+            span {
                 position: relative;
                 z-index: 1;
             }
-            
 
             &:hover {
-                &:before{
+                &:before {
                     opacity: 1;
                 }
             }
@@ -1312,7 +1312,7 @@ header {
         .products {
             justify-content: space-around;
 
-            .product{
+            .product {
                 margin-inline-end: 0;
                 width: 24%;
             }
@@ -1373,7 +1373,7 @@ header {
                 margin: 0;
                 margin-bottom: 15px;
                 text-transform: uppercase;
-                font-size: 22px;
+                font-size: 18px;
                 font-weight: 500;
                 color: rgba(38, 50, 56, 255);
             }
@@ -1389,7 +1389,7 @@ header {
 
     @media (max-width: 992px) {
         padding-bottom: 85px;
-        margin-top:30px;
+        margin-top: 30px;
     }
 }
 
@@ -1520,9 +1520,9 @@ header {
                 }
             }
 
-            &:hover{
-                a{
-                    background-color:$color1;
+            &:hover {
+                a {
+                    background-color: $color1;
                 }
             }
         }
@@ -1586,6 +1586,7 @@ footer {
                 font-size: 15px;
                 color: rgba(117, 117, 117, 255);
                 line-height: 1.4;
+                font-weight: 400;
             }
 
             @media (max-width: 992px) {
@@ -1617,7 +1618,7 @@ footer {
         ul {
             padding: 0;
             li {
-                margin-bottom: 15px;
+                margin-bottom: 10px;
                 transition: all 0.5s;
                 color: rgba(117, 117, 117, 255);
                 a {
@@ -1689,18 +1690,18 @@ footer {
             font-size: 14px;
             margin: 6px 0;
             color: rgba(117, 117, 117, 255);
+            font-weight: 400;
         }
     }
 }
 
 html[dir="ltr"] {
-
     .s-containe {
         .swiper-button-prev {
             right: unset;
             left: -65px;
         }
-    
+
         .swiper-button-next {
             left: unset;
             right: -65px;
